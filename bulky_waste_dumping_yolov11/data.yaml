@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../train/images
+test: ../train/images
+
+
+nc: 5
+names: ['bin_empty', 'bin_full', 'bulk_waste', 'normal_waste', 'vehicle']
+
+roboflow:
+  workspace: rogers-workspace-48rgb
+  project: rogers-workspace-48rgb
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/rogers-workspace-48rgb/rogers-workspace-48rgb/dataset
